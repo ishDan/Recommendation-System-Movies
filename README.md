@@ -29,10 +29,19 @@ The movie recommendation system effectively identifies and suggests movies that 
 
 Here's a sample run of the recommendation function, which prints out similar movie titles for the input movie "Noah":
 
-python
+python <b>
 Copy code
-recommend("Noah")
-The output would be the titles of the top 5 most similar movies to "Noah" based on their content features. The use of cosine similarity ensures that the recommendations are based on the textual similarity of the combined 'tags' column.
+recommend("Noah") <b>
+The output would be the titles of the top 5 most similar movies to "Noah" based on their content features. The use of cosine similarity ensures that the recommendations are based on the textual similarity of the combined 'tags' column.  <b>
+
+##### output: 
+
+    Iron Man 3
+    Iron Man 2
+    Avengers: Age of Ultron
+    The Avengers
+    Captain America: Civil War
+
 
 
 
