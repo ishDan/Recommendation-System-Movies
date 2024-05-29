@@ -12,7 +12,7 @@ Defines functions to extract and transform the 'genres', 'keywords', 'cast', and
 Converts these lists into lower-case strings and removes spaces. <br>
 Combines the 'overview', 'genres', 'keywords', 'cast', and 'crew' columns into a single 'tags' column. <be>
 
-Text Vectorization: <br>
+#Text Vectorization: <br>
  <br>
 Uses CountVectorizer from scikit-learn to convert the 'tags' column into a matrix of token counts. <br>
 Stems the words in the 'tags' column to their root forms. <be>
